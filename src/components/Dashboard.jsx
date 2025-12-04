@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import { useAuth } from '../contexts/AuthContext'
+import { useAuth } from '../auth/AuthContext'
 import { useNavigate } from 'react-router-dom'
-import api from '../services/api'
+import api from '../auth/api'
 import TaskForm from '../components/TaskForm'
 import TaskList from '../components/TaskList'
 
